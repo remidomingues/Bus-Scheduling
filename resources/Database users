@@ -1,0 +1,13 @@
+Gidion database users :
+
+Login				Password
+----------------------------------------
+gidion				gi7dw4
+
+
+
+Données à importer :
+
+GRANT USAGE ON *.* TO 'gidion'@'localhost' IDENTIFIED BY PASSWORD '*67AF13A0E598A32A0D96370A962D4AA0A2513C95';
+GRANT SELECT, INSERT ON `gidion`.* TO 'gidion'@'localhost';
+
